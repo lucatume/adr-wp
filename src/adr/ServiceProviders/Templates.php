@@ -6,9 +6,6 @@ class adr_ServiceProviders_Templates extends tad_DI52_ServiceProvider {
 	 * Binds and sets up implementations.
 	 */
 	public function register() {
-		//		$this->container->when( 'adr_Responders_Responder' )
-		//		                ->needs( 'Twig_Environment' )
-		//		                ->give( array( $this, 'buildTwigEnvironment' ) );
 		$this->container->singleton( 'Twig_Environment', array( $this, 'buildTwigEnvironment' ) );
 	}
 
