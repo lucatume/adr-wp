@@ -1,0 +1,32 @@
+{
+  "name": "lucatume/adr-wp",
+  "description": "Plugin based implementation of the ADR pattern in WordPress.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "theAverageDev (Luca Tumedei)",
+      "email": "luca@theaveragedev.com"
+    }
+  ],
+  "require": {
+    "xrstf/composer-php52": "^1.0",
+    "lucatume/di52": "^2.0",
+    "lucatume/klein52": "^1.0"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "xrstf\\Composer52\\Generator::onPostInstallCmd"
+    ],
+    "post-update-cmd": [
+      "xrstf\\Composer52\\Generator::onPostInstallCmd"
+    ],
+    "post-autoload-dump": [
+      "xrstf\\Composer52\\Generator::onPostInstallCmd"
+    ]
+  },
+  "require-dev": {
+    "lucatume/wp-browser": "^1.21",
+    "vlucas/phpdotenv": "^2.4"
+  }
+}

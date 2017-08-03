@@ -1,0 +1,43 @@
+version: "2"
+
+services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+  mysql:
+    image: mysql
+    environment:
+      - VIRTUAL_HOST=db.localhost
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=${DOMAIN}
+      - MYSQL_USER=${DOMAIN}
+      - MYSQL_PASSWORD=${DOMAIN}
+    volumes:
+      - ./docker/database:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    user: "1000"
+  php:
+    image: lucatume/php-52-xdebug:latest
+    environment:
+      - XDEBUG_REMOTE_HOST=${XDEBUG_REMOTE_HOST}
+    links:
+      - "mysql:db.localhost"
+      - "nginx-proxy:${DOMAIN}.localhost"
+    volumes:
+      - ./docker/www:/var/www/html
+      - .:/var/www/html/wp-content/plugins/adr-wp
+  nginx:
+    image: lucatume/nginx-for-wp:latest
+    environment:
+      - VIRTUAL_HOST=${DOMAIN}.localhost,*.${DOMAIN}.localhost
+      - DOMAIN=${DOMAIN}.localhost
+    volumes:
+      - ./docker/www:/var/www/html
+      - .:/var/www/html/wp-content/plugins/adr-wp
+    links:
+      - php

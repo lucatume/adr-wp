@@ -1,0 +1,1981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d8be564-469a-4ca3-865c-be97187122b7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/adr-wp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/adr-wp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-cli.local.yml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="adr-wp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="functional.suite.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/functional.suite.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/docker/www/wp-config.php" />
+        <option value="$PROJECT_DIR$/docker/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/codeception.yml" />
+        <option value="$PROJECT_DIR$/wp-cli.local.yml" />
+        <option value="$PROJECT_DIR$/tests/acceptance.suite.yml" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/adr-wp.php" />
+        <option value="$PROJECT_DIR$/vendor/composer/autoload_real_52.php" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/tests/wpunit.suite.yml" />
+        <option value="$PROJECT_DIR$/vendor/lucatume/wp-browser/src/includes/isolated-install.php" />
+        <option value="$PROJECT_DIR$/vendor/lucatume/wp-browser/src/includes/bootstrap.php" />
+        <option value="$PROJECT_DIR$/tests/functional.suite.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" max_simultaneous_connections="10" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" zd_debug_can_accept_external_connections="false" />
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="23" />
+    <option name="width" value="1675" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="adr-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adr-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adr-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adr-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adr-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adr-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d8be564-469a-4ca3-865c-be97187122b7" name="Default" comment="" />
+      <created>1501669729563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501669729563</updated>
+      <workItem from="1501669730813" duration="1059000" />
+      <workItem from="1501689053830" duration="8540000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9599000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="23" width="1675" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24955224" sideWeight="0.4963351" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24955224" sideWeight="0.5036649" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/docker/www/wp-includes/wp-db.php</url>
+          <line>1537</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/lucatume/wp-browser/src/Codeception/Module/WPDb.php</url>
+          <line>146</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <marker date="1501694401000" expanded="true" signature="9:12" ph="2" />
+            <marker date="1501694401000" expanded="true" signature="14:1076" ph="services: &lt;4 keys&gt;" />
+            <marker date="1501694401000" expanded="true" signature="26:190" ph="nginx-proxy: &lt;4 keys&gt;" />
+            <marker date="1501694401000" expanded="true" signature="50:69" ph="jwilder/nginx-proxy" />
+            <marker date="1501694401000" expanded="true" signature="90:101" ph="nginx-proxy" />
+            <marker date="1501694401000" expanded="true" signature="106:128" ph="ports: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="121:128" ph="80:80" />
+            <marker date="1501694401000" expanded="true" signature="133:190" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="150:190" ph="/var/run/…er.sock:ro" />
+            <marker date="1501694401000" expanded="true" signature="193:497" ph="mysql: &lt;5 keys&gt;" />
+            <marker date="1501694401000" expanded="true" signature="211:216" ph="mysql" />
+            <marker date="1501694401000" expanded="true" signature="221:395" ph="environment: &lt;5 items&gt;" />
+            <marker date="1501694401000" expanded="true" signature="242:267" ph="VIRTUAL_H….localhost" />
+            <marker date="1501694401000" expanded="true" signature="276:300" ph="MYSQL_ROO…SWORD=root" />
+            <marker date="1501694401000" expanded="true" signature="309:333" ph="MYSQL_DAT…=${DOMAIN}" />
+            <marker date="1501694401000" expanded="true" signature="342:362" ph="MYSQL_USER=${DOMAIN}" />
+            <marker date="1501694401000" expanded="true" signature="371:395" ph="MYSQL_PAS…=${DOMAIN}" />
+            <marker date="1501694401000" expanded="true" signature="400:449" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="417:449" ph="./docker/…/lib/mysql" />
+            <marker date="1501694401000" expanded="true" signature="454:480" ph="ports: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="469:480" ph="3306:3306" />
+            <marker date="1501694401000" expanded="true" signature="491:497" ph="1000" />
+            <marker date="1501694401000" expanded="true" signature="500:791" ph="php: &lt;4 keys&gt;" />
+            <marker date="1501694401000" expanded="true" signature="516:545" ph="lucatume/…bug:latest" />
+            <marker date="1501694401000" expanded="true" signature="550:611" ph="environment: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="571:611" ph="XDEBUG_RE…MOTE_HOST}" />
+            <marker date="1501694401000" expanded="true" signature="616:693" ph="links: &lt;2 items&gt;" />
+            <marker date="1501694401000" expanded="true" signature="631:651" ph="mysql:db.localhost" />
+            <marker date="1501694401000" expanded="true" signature="660:693" ph="nginx-pro….localhost" />
+            <marker date="1501694401000" expanded="true" signature="698:791" ph="volumes: &lt;2 items&gt;" />
+            <marker date="1501694401000" expanded="true" signature="715:741" ph="./docker/…r/www/html" />
+            <marker date="1501694401000" expanded="true" signature="750:791" ph=".:/var/ww…ins/adr-wp" />
+            <marker date="1501694401000" expanded="true" signature="794:1076" ph="nginx: &lt;4 keys&gt;" />
+            <marker date="1501694401000" expanded="true" signature="812:840" ph="lucatume/…-wp:latest" />
+            <marker date="1501694401000" expanded="true" signature="845:955" ph="environment: &lt;2 items&gt;" />
+            <marker date="1501694401000" expanded="true" signature="866:920" ph="VIRTUAL_H….localhost" />
+            <marker date="1501694401000" expanded="true" signature="929:955" ph="DOMAIN=${….localhost" />
+            <marker date="1501694401000" expanded="true" signature="960:1053" ph="volumes: &lt;2 items&gt;" />
+            <marker date="1501694401000" expanded="true" signature="977:1003" ph="./docker/…r/www/html" />
+            <marker date="1501694401000" expanded="true" signature="1012:1053" ph=".:/var/ww…ins/adr-wp" />
+            <marker date="1501694401000" expanded="true" signature="1058:1076" ph="links: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="1073:1076" ph="php" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload_52.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <marker date="1501691105000" expanded="true" signature="0:775" ph="{&quot;name&quot;: &quot;lucatume/adr-wp&quot;...}" />
+            <marker date="1501691105000" expanded="true" signature="179:282" ph="[...]" />
+            <marker date="1501691105000" expanded="true" signature="185:278" ph="{&quot;name&quot;: &quot;theAverageDev (Luca Tumedei)&quot;...}" />
+            <marker date="1501691105000" expanded="true" signature="297:398" ph="{&quot;xrstf/composer-php52&quot;: &quot;^1.0&quot;...}" />
+            <marker date="1501691105000" expanded="true" signature="413:682" ph="{...}" />
+            <marker date="1501691105000" expanded="true" signature="439:501" ph="[...]" />
+            <marker date="1501691105000" expanded="true" signature="526:588" ph="[...]" />
+            <marker date="1501691105000" expanded="true" signature="616:678" ph="[...]" />
+            <marker date="1501691105000" expanded="true" signature="701:773" ph="{&quot;lucatume/wp-browser&quot;: &quot;^1.21&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeception.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <marker date="1501690555000" expanded="true" signature="0:121" ph="paths: &lt;5 keys&gt;" />
+            <marker date="1501690555000" expanded="true" signature="18:23" ph="tests" />
+            <marker date="1501690555000" expanded="true" signature="36:49" ph="tests/_output" />
+            <marker date="1501690555000" expanded="true" signature="60:71" ph="tests/_data" />
+            <marker date="1501690555000" expanded="true" signature="85:99" ph="tests/_support" />
+            <marker date="1501690555000" expanded="true" signature="110:121" ph="tests/_envs" />
+            <marker date="1501690555000" expanded="true" signature="136:142" ph="Tester" />
+            <marker date="1501690555000" expanded="true" signature="143:665" ph="extensions: &lt;2 keys&gt;" />
+            <marker date="1501690555000" expanded="true" signature="159:209" ph="enabled: &lt;1 item&gt;" />
+            <marker date="1501690555000" expanded="true" signature="178:209" ph="Codecepti…\RunFailed" />
+            <marker date="1501690555000" expanded="true" signature="214:665" ph="commands: &lt;9 items&gt;" />
+            <marker date="1501690555000" expanded="true" signature="234:268" ph="Codecepti…rateWPUnit" />
+            <marker date="1501690555000" expanded="true" signature="279:316" ph="Codecepti…eWPRestApi" />
+            <marker date="1501690555000" expanded="true" signature="327:371" ph="Codecepti…Controller" />
+            <marker date="1501690555000" expanded="true" signature="382:434" ph="Codecepti…Controller" />
+            <marker date="1501690555000" expanded="true" signature="445:479" ph="Codecepti…rateWPAjax" />
+            <marker date="1501690555000" expanded="true" signature="490:529" ph="Codecepti…PCanonical" />
+            <marker date="1501690555000" expanded="true" signature="540:576" ph="Codecepti…teWPXMLRPC" />
+            <marker date="1501690555000" expanded="true" signature="587:617" ph="Codecepti…DbSnapshot" />
+            <marker date="1501690555000" expanded="true" signature="628:665" ph="tad\Codec…rchReplace" />
+            <marker date="1501690555000" expanded="true" signature="666:682" ph="params: &lt;1 item&gt;" />
+            <marker date="1501690555000" expanded="true" signature="678:682" ph=".env" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit.suite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1501690539000" expanded="true" signature="88:98" ph="UnitTester" />
+            <marker date="1501690539000" expanded="true" signature="99:161" ph="modules: &lt;1 key&gt;" />
+            <marker date="1501690539000" expanded="true" signature="112:161" ph="enabled: &lt;2 items&gt;" />
+            <marker date="1501690539000" expanded="true" signature="131:138" ph="Asserts" />
+            <marker date="1501690539000" expanded="true" signature="149:161" ph="\Helper\Unit" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-cli.local.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1501691155000" expanded="true" signature="6:16" ph="docker/www" />
+            <marker date="1501691155000" expanded="true" signature="22:42" ph="http://adr.localhost" />
+            <marker date="1501691155000" expanded="true" signature="49:54" ph="admin" />
+            <marker date="1501691155000" expanded="true" signature="62:67" ph="false" />
+            <marker date="1501691155000" expanded="true" signature="75:79" ph="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_data/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_data/dump.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1895">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1501691191000" expanded="true" signature="185:249" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="251:317" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="319:383" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="385:411" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="413:455" ph="/*!40103 SET... " />
+            <marker date="1501691191000" expanded="true" signature="457:491" ph="/*!40103 SET... " />
+            <marker date="1501691191000" expanded="true" signature="493:560" ph="/*!40014 SET... " />
+            <marker date="1501691191000" expanded="true" signature="562:644" ph="/*!40014 SET... " />
+            <marker date="1501691191000" expanded="true" signature="646:720" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="722:777" ph="/*!40111 SET... " />
+            <marker date="1501691191000" expanded="true" signature="833:870" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="872:933" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="935:978" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="980:1420" ph="CREATE TABLE... wp_commentmeta" />
+            <marker date="1501691191000" expanded="true" signature="1422:1477" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="1566:1619" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="1621:1673" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="1741:1775" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="1777:1838" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="1840:1883" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="1885:3353" ph="CREATE TABLE... wp_comments" />
+            <marker date="1501691191000" expanded="true" signature="3355:3410" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="3493:3543" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="3545:3594" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="3659:3690" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="3692:3753" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="3755:3798" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="3800:4895" ph="CREATE TABLE... wp_links" />
+            <marker date="1501691191000" expanded="true" signature="4897:4952" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="5029:5076" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="5078:5124" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="5191:5224" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="5226:5287" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="5289:5332" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="5334:5810" ph="CREATE TABLE... wp_options" />
+            <marker date="1501691191000" expanded="true" signature="5812:5867" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="5948:5997" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="5999:417122" ph="INSERT INTO `wp_options`... " />
+            <marker date="1501691191000" expanded="true" signature="417802:417850" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="417918:417952" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="417954:418015" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="418017:418060" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="418062:418490" ph="CREATE TABLE... wp_postmeta" />
+            <marker date="1501691191000" expanded="true" signature="418492:418547" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="418630:418680" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="418682:418731" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="418796:418827" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="418829:418890" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="418892:418935" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="418937:420811" ph="CREATE TABLE... wp_posts" />
+            <marker date="1501691191000" expanded="true" signature="420813:420868" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="420945:420992" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="420994:421040" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="421118:421162" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="421164:421225" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="421227:421270" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="421272:421639" ph="CREATE TABLE... wp_term_relationships" />
+            <marker date="1501691191000" expanded="true" signature="421641:421696" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="421799:421859" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="421861:421920" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="421993:422032" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="422034:422095" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="422097:422140" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="422142:422744" ph="CREATE TABLE... wp_term_taxonomy" />
+            <marker date="1501691191000" expanded="true" signature="422746:422801" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="422894:422949" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="422951:423012" ph="INSERT INTO `wp_term_taxonomy`... " />
+            <marker date="1501691191000" expanded="true" signature="423014:423068" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="423136:423170" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="423172:423233" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="423235:423278" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="423280:423708" ph="CREATE TABLE... wp_termmeta" />
+            <marker date="1501691191000" expanded="true" signature="423710:423765" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="423848:423898" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="423900:423949" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="424014:424045" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="424047:424108" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="424110:424153" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="424155:424603" ph="CREATE TABLE... wp_terms" />
+            <marker date="1501691191000" expanded="true" signature="424605:424660" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="424737:424784" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="424786:424853" ph="INSERT INTO `wp_terms`... " />
+            <marker date="1501691191000" expanded="true" signature="424855:424901" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="424969:425003" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="425005:425066" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="425068:425111" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="425113:425561" ph="CREATE TABLE... wp_usermeta" />
+            <marker date="1501691191000" expanded="true" signature="425563:425618" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="425701:425751" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="425753:426669" ph="INSERT INTO `wp_usermeta`... " />
+            <marker date="1501691191000" expanded="true" signature="426671:426720" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="426785:426816" ph="DROP TABLE I... " />
+            <marker date="1501691191000" expanded="true" signature="426818:426879" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="426881:426924" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="426926:427911" ph="CREATE TABLE... wp_users" />
+            <marker date="1501691191000" expanded="true" signature="427913:427968" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="428045:428092" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="428094:428240" ph="INSERT INTO `wp_users`... " />
+            <marker date="1501691191000" expanded="true" signature="428242:428288" ph="/*!40000 ALT... " />
+            <marker date="1501691191000" expanded="true" signature="428305:428345" ph="/*!40103 SET... " />
+            <marker date="1501691191000" expanded="true" signature="428348:428386" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="428388:428446" ph="/*!40014 SET... " />
+            <marker date="1501691191000" expanded="true" signature="428448:428496" ph="/*!40014 SET... " />
+            <marker date="1501691191000" expanded="true" signature="428498:428560" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="428562:428626" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="428628:428690" ph="/*!40101 SET... " />
+            <marker date="1501691191000" expanded="true" signature="428692:428732" ph="/*!40111 SET... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/www/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <marker date="1501689644000" expanded="false" signature="9:461" ph=" The base configuration for WordPress ..." />
+            <marker date="1501689644000" expanded="true" signature="941:1307" ph=" Authentication Unique Keys and Salts. ..." />
+            <marker date="1501689644000" expanded="true" signature="2083:2263" ph=" WordPress Database Table prefix. ..." />
+            <marker date="1501689644000" expanded="true" signature="2290:2581" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real_52.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="60" column="30" lean-forward="false" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+          <folding>
+            <marker date="1501709998000" expanded="true" signature="2649:3758" ph="..." />
+            <marker date="1501709998000" expanded="true" signature="204:312" ph="..." />
+            <marker date="1501709998000" expanded="true" signature="255:309" ph="..." />
+            <marker date="1501709998000" expanded="true" signature="319:363" ph=" @return xrstf_Composer52_ClassLoader ..." />
+            <marker date="1501709998000" expanded="true" signature="2649:3756" ph="..." />
+            <marker date="1501709998000" expanded="true" signature="435:463" ph="..." />
+            <marker date="1501709998000" expanded="true" signature="974:1013" ph="..." />
+            <marker date="1501709998000" expanded="true" signature="1087:1126" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adr-wp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <marker date="1501694035000" expanded="false" signature="9:386" ph=" Plugin Name: ADR ..." />
+            <marker date="1501694035000" expanded="true" signature="440:489" ph="..." />
+            <marker date="1501694035000" expanded="true" signature="497:559" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/www/wp-includes/wp-db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="1537" column="0" lean-forward="false" selection-start-line="1537" selection-start-column="0" selection-end-line="1537" selection-end-column="0" />
+          <folding>
+            <marker date="1501667485000" expanded="false" signature="9:194" ph=" WordPress DB Class ..." />
+            <marker date="1501667485000" expanded="true" signature="201:218" ph=" @since 0.71 ..." />
+            <marker date="1501667485000" expanded="true" signature="262:279" ph=" @since 0.71 ..." />
+            <marker date="1501667485000" expanded="true" signature="362:380" ph=" @since 2.5.0 ..." />
+            <marker date="1501667485000" expanded="true" signature="421:438" ph=" @since 0.71 ..." />
+            <marker date="1501667485000" expanded="true" signature="477:494" ph=" @since 0.71 ..." />
+            <marker date="1501667485000" expanded="true" signature="533:945" ph=" WordPress Database Access Abstraction Object ..." />
+            <marker date="1501667485000" expanded="true" signature="960:95511" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="966:1162" ph=" Whether to show SQL/DB errors. ..." />
+            <marker date="1501667485000" expanded="true" signature="1197:1315" ph=" Whether to suppress errors during the DB bootstrapping. ..." />
+            <marker date="1501667485000" expanded="true" signature="1354:1427" ph=" The last error during query. ..." />
+            <marker date="1501667485000" expanded="true" signature="1461:1544" ph=" Amount of queries made ..." />
+            <marker date="1501667485000" expanded="true" signature="1578:1678" ph=" Count of rows returned by previous query ..." />
+            <marker date="1501667485000" expanded="true" signature="1709:1810" ph=" Count of affected rows by previous query ..." />
+            <marker date="1501667485000" expanded="true" signature="1843:1988" ph=" The ID generated for an AUTO_INCREMENT column by the previous query (usually INSERT). ..." />
+            <marker date="1501667485000" expanded="true" signature="2020:2098" ph=" Last query made ..." />
+            <marker date="1501667485000" expanded="true" signature="2124:2222" ph=" Results of the last query made ..." />
+            <marker date="1501667485000" expanded="true" signature="2249:2366" ph=" MySQL result, which is either a resource or boolean. ..." />
+            <marker date="1501667485000" expanded="true" signature="2394:2521" ph=" Cached column info, for sanity checking data before inserting ..." />
+            <marker date="1501667485000" expanded="true" signature="2561:2662" ph=" Calculated character sets on tables ..." />
+            <marker date="1501667485000" expanded="true" signature="2707:2839" ph=" Whether text fields in the current query need to be sanity checked. ..." />
+            <marker date="1501667485000" expanded="true" signature="2887:3068" ph=" Flag to ensure we don't run into recursion problems when checking the collation. ..." />
+            <marker date="1501667485000" expanded="true" signature="3114:3209" ph=" Saved info on the table column ..." />
+            <marker date="1501667485000" expanded="true" signature="3239:3335" ph=" Saved queries that were executed ..." />
+            <marker date="1501667485000" expanded="true" signature="3358:3511" ph=" The number of times to retry reconnecting before dying. ..." />
+            <marker date="1501667485000" expanded="true" signature="3554:3792" ph=" WordPress table prefix ..." />
+            <marker date="1501667485000" expanded="true" signature="3822:3914" ph=" WordPress base table prefix. ..." />
+            <marker date="1501667485000" expanded="true" signature="3945:4066" ph=" Whether the database queries are ready to start executing. ..." />
+            <marker date="1501667485000" expanded="true" signature="4095:4164" ph=" Blog ID. ..." />
+            <marker date="1501667485000" expanded="true" signature="4193:4262" ph=" Site ID. ..." />
+            <marker date="1501667485000" expanded="true" signature="4291:4412" ph=" List of WordPress per-blog tables ..." />
+            <marker date="1501667485000" expanded="true" signature="4436:4566" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="4574:4782" ph=" List of deprecated WordPress tables ..." />
+            <marker date="1501667485000" expanded="true" signature="4856:4975" ph=" List of WordPress global tables ..." />
+            <marker date="1501667485000" expanded="true" signature="5035:5154" ph=" List of Multisite global tables ..." />
+            <marker date="1501667485000" expanded="true" signature="5188:5285" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="5293:5381" ph=" WordPress Comments table ..." />
+            <marker date="1501667485000" expanded="true" signature="5408:5504" ph=" WordPress Comment Metadata table ..." />
+            <marker date="1501667485000" expanded="true" signature="5534:5619" ph=" WordPress Links table ..." />
+            <marker date="1501667485000" expanded="true" signature="5643:5730" ph=" WordPress Options table ..." />
+            <marker date="1501667485000" expanded="true" signature="5756:5849" ph=" WordPress Post Metadata table ..." />
+            <marker date="1501667485000" expanded="true" signature="5876:5961" ph=" WordPress Posts table ..." />
+            <marker date="1501667485000" expanded="true" signature="5985:6070" ph=" WordPress Terms table ..." />
+            <marker date="1501667485000" expanded="true" signature="6094:6192" ph=" WordPress Term Relationships table ..." />
+            <marker date="1501667485000" expanded="true" signature="6229:6322" ph=" WordPress Term Taxonomy table ..." />
+            <marker date="1501667485000" expanded="true" signature="6354:6444" ph=" WordPress Term Meta table. ..." />
+            <marker date="1501667485000" expanded="true" signature="6512:6605" ph=" WordPress User Metadata table ..." />
+            <marker date="1501667485000" expanded="true" signature="6632:6717" ph=" WordPress Users table ..." />
+            <marker date="1501667485000" expanded="true" signature="6741:6826" ph=" Multisite Blogs table ..." />
+            <marker date="1501667485000" expanded="true" signature="6850:6943" ph=" Multisite Blog Versions table ..." />
+            <marker date="1501667485000" expanded="true" signature="6975:7071" ph=" Multisite Registration Log table ..." />
+            <marker date="1501667485000" expanded="true" signature="7106:7193" ph=" Multisite Signups table ..." />
+            <marker date="1501667485000" expanded="true" signature="7219:7304" ph=" Multisite Sites table ..." />
+            <marker date="1501667485000" expanded="true" signature="7327:7421" ph=" Multisite Sitewide Terms table ..." />
+            <marker date="1501667485000" expanded="true" signature="7454:7547" ph=" Multisite Site Metadata table ..." />
+            <marker date="1501667485000" expanded="true" signature="7574:7931" ph=" Format specifiers for DB columns. Columns not listed here default to %s. Initialized during WP load. ..." />
+            <marker date="1501667485000" expanded="true" signature="7971:8065" ph=" Database table columns charset ..." />
+            <marker date="1501667485000" expanded="true" signature="8091:8185" ph=" Database table columns collate ..." />
+            <marker date="1501667485000" expanded="true" signature="8211:8295" ph=" Database Username ..." />
+            <marker date="1501667485000" expanded="true" signature="8323:8407" ph=" Database Password ..." />
+            <marker date="1501667485000" expanded="true" signature="8439:8519" ph=" Database Name ..." />
+            <marker date="1501667485000" expanded="true" signature="8547:8627" ph=" Database Host ..." />
+            <marker date="1501667485000" expanded="true" signature="8655:8736" ph=" Database Handle ..." />
+            <marker date="1501667485000" expanded="true" signature="8761:8885" ph=" A textual description of the last query/get_row/get_var call ..." />
+            <marker date="1501667485000" expanded="true" signature="8913:9295" ph=" Whether MySQL is used as the database engine. ..." />
+            <marker date="1501667485000" expanded="true" signature="9329:9428" ph=" A list of incompatible SQL modes. ..." />
+            <marker date="1501667485000" expanded="true" signature="9470:9569" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="9577:9673" ph=" Whether to use mysqli over mysql. ..." />
+            <marker date="1501667485000" expanded="true" signature="9711:9833" ph=" Whether we've managed to successfully connect at some point ..." />
+            <marker date="1501667485000" expanded="true" signature="9874:10405" ph=" Connects to the database server and selects a database ..." />
+            <marker date="1501667485000" expanded="true" signature="10480:11465" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="10612:10831" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="10880:11203" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="10922:10970" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="11069:11103" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="11165:11199" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="11424:11438" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="11472:11616" ph=" PHP5 style destructor and will run when database object is destroyed. ..." />
+            <marker date="1501667485000" expanded="true" signature="11650:11667" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="11674:11879" ph=" Makes private properties readable for backward compatibility. ..." />
+            <marker date="1501667485000" expanded="true" signature="11915:11998" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="12005:12192" ph=" Makes private properties settable for backward compatibility. ..." />
+            <marker date="1501667485000" expanded="true" signature="12236:12430" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="12266:12330" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="12388:12402" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="12437:12635" ph=" Makes private properties check-able for backward compatibility. ..." />
+            <marker date="1501667485000" expanded="true" signature="12673:12707" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="12714:12864" ph=" Makes private properties un-settable for backward compatibility. ..." />
+            <marker date="1501667485000" expanded="true" signature="12902:12929" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="12936:13002" ph=" Set $this-&gt;charset and $this-&gt;collate ..." />
+            <marker date="1501667485000" expanded="true" signature="13038:13590" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="13134:13287" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="13206:13237" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="13245:13283" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="13325:13354" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="13391:13420" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="13597:13981" ph=" Determines the best charset and collation to use given a charset and collation. ..." />
+            <marker date="1501667485000" expanded="true" signature="14042:14965" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="14136:14182" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="14246:14274" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="14343:14428" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="14464:14712" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="14594:14635" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="14643:14708" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="14876:14919" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="14972:15246" ph=" Sets the connection's character set. ..." />
+            <marker date="1501667485000" expanded="true" signature="15321:16365" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="15503:16362" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="15568:15961" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="15656:15729" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="15767:15956" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="15969:16358" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="16056:16128" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="16165:16353" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="16372:16633" ph=" Change the current SQL mode, and ensure its WordPress compatibility. ..." />
+            <marker date="1501667485000" expanded="true" signature="16687:17941" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="16714:17262" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="16744:16816" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="16824:16895" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="16923:16939" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="16971:17113" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="17056:17074" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="17121:17167" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="17201:17217" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="17327:17489" ph=" Filters the list of incompatible SQL modes to exclude. ..." />
+            <marker date="1501667485000" expanded="true" signature="17632:17718" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="17683:17714" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="17789:17860" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="17868:17938" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="17948:18276" ph=" Sets the table prefix for the WordPress tables. ..." />
+            <marker date="1501667485000" expanded="true" signature="18344:19119" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="18651:19094" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="19126:19282" ph=" Sets blog id. ..." />
+            <marker date="1501667485000" expanded="true" signature="19341:19739" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="19746:19858" ph=" Gets blog prefix. ..." />
+            <marker date="1501667485000" expanded="true" signature="19914:20233" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="19940:20189" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="20197:20230" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="20240:21608" ph=" Returns an array of WordPress tables. ..." />
+            <marker date="1501667485000" expanded="true" signature="21684:23008" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="21706:22270" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="21722:21889" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="21906:21946" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="21965:22102" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="22124:22174" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="22190:22234" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="22247:22267" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="22291:22986" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="22557:22740" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="23015:23359" ph=" Selects a database using the current database connection. ..." />
+            <marker date="1501667485000" expanded="true" signature="23407:25247" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="23482:23530" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="23538:23585" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="23608:25244" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="23681:25240" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="23823:24084" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="24229:24508" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="24557:24808" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="24883:25175" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="24951:24958" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="25254:25509" ph=" Do not use, deprecated. ..." />
+            <marker date="1501667485000" expanded="true" signature="25547:25737" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="25744:26010" ph=" Real escape, using mysqli_real_escape_string() or mysql_real_escape_string() ..." />
+            <marker date="1501667485000" expanded="true" signature="26048:26700" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="26070:26241" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="26100:26165" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="26173:26237" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="26309:26536" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="26544:26665" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="26707:26884" ph=" Escape data. Works on arrays. ..." />
+            <marker date="1501667485000" expanded="true" signature="26922:27196" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="26951:27124" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="26986:27120" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="27014:27058" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="27066:27115" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="27132:27176" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="27203:27435" ph=" Do not use, deprecated. ..." />
+            <marker date="1501667485000" expanded="true" signature="27472:27926" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="27657:27842" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="27692:27838" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="27850:27906" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="27933:28111" ph=" Escapes content by reference for insertion into the database, for security ..." />
+            <marker date="1501667485000" expanded="true" signature="28158:28236" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="28243:30191" ph=" Prepares a SQL query for safe execution. Uses sprintf()-like syntax. ..." />
+            <marker date="1501667485000" expanded="true" signature="30237:31213" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="30406:30546" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="31220:32099" ph=" First half of escaping for LIKE special characters % and _ before preparing for MySQL. ..." />
+            <marker date="1501667485000" expanded="true" signature="32138:32179" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="32186:32430" ph=" Print SQL/DB error. ..." />
+            <marker date="1501667485000" expanded="true" signature="32476:34005" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="32517:32644" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="32547:32590" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="32598:32640" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="32849:33075" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="33083:33254" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="33433:33700" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="33452:33548" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="33589:33633" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="33672:33696" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="33708:34002" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="33833:33997" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="34012:34441" ph=" Enables showing of database errors. ..." />
+            <marker date="1501667485000" expanded="true" signature="34490:34572" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="34579:34780" ph=" Disables showing of database errors. ..." />
+            <marker date="1501667485000" expanded="true" signature="34815:34893" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="34900:35198" ph=" Whether to suppress database errors. ..." />
+            <marker date="1501667485000" expanded="true" signature="35255:35356" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="35363:35417" ph=" Kill cached query results. ..." />
+            <marker date="1501667485000" expanded="true" signature="35446:36107" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="35681:36019" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="35859:35875" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="35973:36015" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="36062:36104" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="36114:36478" ph=" Connect to and select database. ..." />
+            <marker date="1501667485000" expanded="true" signature="36532:40672" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="36564:36681" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="36856:38584" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="37216:37610" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="37372:37560" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="37504:37554" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="37568:37605" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="37633:37754" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="37762:37884" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="37924:38580" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="37955:38164" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="38231:38268" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="38334:38371" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="38422:38459" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="38492:38575" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="38592:38852" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="38613:38726" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="38734:38848" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="38893:40371" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="39036:39105" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="39225:39613" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="39291:39500" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="40008:40289" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="40070:40077" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="40396:40652" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="40431:40462" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="40679:41194" ph=" Checks that the connection to the database is still up. If not, try to reconnect. ..." />
+            <marker date="1501667485000" expanded="true" signature="41254:43671" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="41283:41371" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="41346:41367" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="41379:41466" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="41441:41462" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="41608:41705" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="41776:42196" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="41990:42035" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="42076:42176" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="42106:42153" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="42375:42395" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="42422:42442" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="42587:42837" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="43146:43423" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="43206:43213" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="43678:43946" ph=" Perform a MySQL database query, using current database connection. ..." />
+            <marker date="1501667485000" expanded="true" signature="43983:47782" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="44009:44067" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="44075:44302" ph=" Filters the database query. ..." />
+            <marker date="1501667485000" expanded="true" signature="44605:44915" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="44863:44911" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45166:45602" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45196:45455" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45238:45291" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45299:45450" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45463:45598" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45502:45554" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45562:45593" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45659:45793" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45697:45733" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45741:45789" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45872:46066" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45913:45969" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="45977:46062" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="46074:46264" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="46112:46167" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="46175:46260" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="46295:46500" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="46575:46610" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="46688:47200" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="46718:46785" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="46793:46859" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="46955:47120" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="46986:47047" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="47055:47115" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="47208:47756" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="47298:47429" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="47358:47424" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="47472:47602" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="47531:47597" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="47789:47964" ph=" Internal function to perform the mysql_query() call. ..." />
+            <marker date="1501667485000" expanded="true" signature="48006:48456" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="48057:48085" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="48141:48199" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="48235:48292" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="48369:48453" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="48463:49674" ph=" Insert a row into a table. ..." />
+            <marker date="1501667485000" expanded="true" signature="49735:49813" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="49820:51034" ph=" Replace a row into a table. ..." />
+            <marker date="1501667485000" expanded="true" signature="51096:51175" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="51182:52424" ph=" Helper function for insert and replace. ..." />
+            <marker date="1501667485000" expanded="true" signature="52512:53227" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="52612:52632" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="52720:52740" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="52806:52960" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="52845:52888" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="53234:55425" ph=" Update a row in the table ..." />
+            <marker date="1501667485000" expanded="true" signature="55516:56560" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="55571:55591" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="55679:55699" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="55795:55815" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="55904:56082" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="55943:55996" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="56126:56313" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="56165:56223" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="56414:56448" ph="UPDATE `${$t... " />
+            <marker date="1501667485000" expanded="true" signature="56567:57836" ph=" Delete a row in the table ..." />
+            <marker date="1501667485000" expanded="true" signature="57904:58542" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="57936:57956" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="58053:58073" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="58153:58340" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="58192:58250" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="58403:58430" ph="DELETE FROM " />
+            <marker date="1501667485000" expanded="true" signature="58549:59317" ph=" Processes arrays of field/value pairs and field formats. ..." />
+            <marker date="1501667485000" expanded="true" signature="59382:59836" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="59467:59487" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="59574:59594" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="59680:59700" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="59796:59816" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="59843:60210" ph=" Prepares arrays of value/format pairs as passed to wpdb CRUD methods. ..." />
+            <marker date="1501667485000" expanded="true" signature="60274:60775" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="60367:60755" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="60386:60436" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="60470:60612" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="60550:60607" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="60664:60721" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="60782:61145" ph=" Adds field charsets to field/value/format arrays generated by ..." />
+            <marker date="1501667485000" expanded="true" signature="61209:61707" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="61251:61687" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="61318:61504" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="61325:61467" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="61512:61653" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="61624:61648" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="61714:62148" ph=" For string fields, record the maximum string length that field can safely save. ..." />
+            <marker date="1501667485000" expanded="true" signature="62211:62705" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="62253:62685" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="62320:62505" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="62327:62469" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="62513:62651" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="62622:62646" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="62712:63466" ph=" Retrieve one variable from the database. ..." />
+            <marker date="1501667485000" expanded="true" signature="63528:64067" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="63666:63708" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="63728:63758" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="63858:63933" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="64074:64678" ph=" Retrieve one row from the database. ..." />
+            <marker date="1501667485000" expanded="true" signature="64750:65759" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="64891:64933" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="64953:64983" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="64991:65010" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="65100:65169" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="65202:65290" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="65323:65427" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="65474:65607" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="65615:65756" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="65766:66343" ph=" Retrieve one column from the database. ..." />
+            <marker date="1501667485000" expanded="true" signature="66398:66773" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="66477:66519" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="66539:66569" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="66694:66749" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="66780:67622" ph=" Retrieve an entire SQL result set from the database (i.e., many rows) ..." />
+            <marker date="1501667485000" expanded="true" signature="67690:69067" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="67833:67875" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="67895:67925" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="67933:67952" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="68007:68091" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="68125:68448" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="68263:68422" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="68503:68905" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="68576:68879" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="68629:68874" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="68662:68767" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="68775:68868" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="68952:69049" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="69074:69304" ph=" Retrieves the character set for the given table. ..." />
+            <marker date="1501667485000" expanded="true" signature="69356:72110" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="69399:69775" ph=" Filters the table charset value before the DB is checked. ..." />
+            <marker date="1501667485000" expanded="true" signature="69875:69898" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="69954:70002" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="70225:70288" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="70326:70384" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="70466:71147" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="70508:70827" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="70744:70773" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="71068:71143" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="71225:71291" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="71401:71436" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="71463:71544" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="71552:72039" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="71713:71792" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="71871:71959" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="71967:72035" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="72117:72478" ph=" Retrieves the character set for the given column. ..." />
+            <marker date="1501667485000" expanded="true" signature="72534:74120" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="72615:73046" ph=" Filters the column charset value before the DB is checked. ..." />
+            <marker date="1501667485000" expanded="true" signature="73153:73176" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="73270:73290" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="73346:73524" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="73489:73520" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="73638:73686" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="73812:73860" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="73985:74005" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="74127:74652" ph=" Retrieve the maximum string length allowed in a given column. ..." />
+            <marker date="1501667485000" expanded="true" signature="74707:76259" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="74874:74894" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="74945:75123" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75088:75119" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75188:75208" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75364:75407" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75415:75438" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75460:76256" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75495:75577" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75513:75575" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75617:75699" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75635:75697" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75740:75830" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75758:75828" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75863:75954" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75881:75952" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="75999:76090" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="76017:76088" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="76131:76222" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="76149:76220" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="76235:76253" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="76266:76583" ph=" Check if a string is ASCII. ..." />
+            <marker date="1501667485000" expanded="true" signature="76630:76850" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="76680:76755" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="76730:76751" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="76811:76830" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="76857:77116" ph=" Check if the query is accessing a collation considered safe on the current version of MySQL. ..." />
+            <marker date="1501667485000" expanded="true" signature="77171:78399" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="77208:77227" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="77424:77443" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="77535:77554" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="77626:77646" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="77906:77925" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="78006:78026" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="78172:78380" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="78209:78227" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="78354:78376" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="78406:79090" ph=" Strips any invalid characters based on value/charset pairs. ..." />
+            <marker date="1501667485000" expanded="true" signature="79142:83568" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="79204:81744" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="79279:79393" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="79401:79640" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="79712:79730" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="79804:79822" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="80045:80117" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="80156:80421" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="80263:80330" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="80396:80416" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="80623:81632" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="81038:81233" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="81534:81613" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="81817:83548" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="81881:83039" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="81918:83034" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="82071:82162" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="82170:82212" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="82243:82293" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="82301:82487" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="82334:82411" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="82419:82480" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="82532:82709" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="82746:82992" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="83107:83194" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="83129:83149" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="83326:83392" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="83442:83544" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="83482:83539" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="83575:83813" ph=" Strips any invalid characters from the query. ..." />
+            <marker date="1501667485000" expanded="true" signature="83877:84732" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="84088:84109" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="84179:84431" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="84265:84290" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="84404:84427" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="84439:84472" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="84491:84590" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="84680:84700" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="84739:85084" ph=" Strips any invalid characters from the string for a given table and column. ..." />
+            <marker date="1501667485000" expanded="true" signature="85162:85732" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="85195:85216" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="85296:85344" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="85382:85432" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="85451:85591" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="85472:85587" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="85672:85692" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="85739:85981" ph=" Find the first table name referenced in a query. ..." />
+            <marker date="1501667485000" expanded="true" signature="86036:88537" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="86457:86839" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="86844:86892" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="87128:87152" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="87157:87464" ph="//..." />
+            <marker date="1501667485000" expanded="true" signature="87650:87701" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="87782:88464" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="88469:88517" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="88544:88644" ph=" Load the column metadata from the last query. ..." />
+            <marker date="1501667485000" expanded="true" signature="88684:89103" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="88750:88920" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="88847:88916" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="88928:89100" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="89024:89096" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="89110:89534" ph=" Retrieve column metadata from the last query. ..." />
+            <marker date="1501667485000" expanded="true" signature="89609:89941" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="89663:89938" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="89693:89867" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="89781:89839" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="89875:89934" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="89948:90039" ph=" Starts the timer, for debugging purposes. ..." />
+            <marker date="1501667485000" expanded="true" signature="90074:90132" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="90139:90258" ph=" Stops the debugging timer. ..." />
+            <marker date="1501667485000" expanded="true" signature="90292:90346" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="90353:90650" ph=" Wraps errors in a nice header and footer and dies. ..." />
+            <marker date="1501667485000" expanded="true" signature="90709:90931" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="90740:90908" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="90786:90846" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="90854:90887" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="90939:91165" ph=" Closes the current database connection. ..." />
+            <marker date="1501667485000" expanded="true" signature="91194:91490" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="91218:91238" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="91269:91313" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="91321:91364" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="91385:91468" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="91497:91698" ph=" Whether MySQL database is at least the required minimum version. ..." />
+            <marker date="1501667485000" expanded="true" signature="91744:92195" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="91926:92192" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="92202:92498" ph=" Whether the database supports collation. ..." />
+            <marker date="1501667485000" expanded="true" signature="92540:92665" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="92672:92787" ph=" The database character collate. ..." />
+            <marker date="1501667485000" expanded="true" signature="92830:93068" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="93075:93580" ph=" Determine if a database supports a particular feature. ..." />
+            <marker date="1501667485000" expanded="true" signature="93620:94761" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="93692:94741" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="93797:93868" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="93892:93947" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="93967:94645" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="94043:94067" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="94099:94153" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="94161:94214" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="94223:94356" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="94418:94568" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="94576:94644" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="94669:94738" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="94768:95031" ph=" Retrieve the name of the function that called wpdb. ..." />
+            <marker date="1501667485000" expanded="true" signature="95065:95117" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="95124:95260" ph=" Retrieves the MySQL server version. ..." />
+            <marker date="1501667485000" expanded="true" signature="95294:95509" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="95323:95382" ph="..." />
+            <marker date="1501667485000" expanded="true" signature="95390:95448" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/wpunit.suite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <marker date="1501696534000" expanded="true" signature="133:145" ph="WpunitTester" />
+            <marker date="1501696534000" expanded="true" signature="146:667" ph="modules: &lt;2 keys&gt;" />
+            <marker date="1501696534000" expanded="true" signature="159:211" ph="enabled: &lt;2 items&gt;" />
+            <marker date="1501696534000" expanded="true" signature="178:186" ph="WPLoader" />
+            <marker date="1501696534000" expanded="true" signature="197:211" ph="\Helper\Wpunit" />
+            <marker date="1501696534000" expanded="true" signature="216:667" ph="config: &lt;1 key&gt;" />
+            <marker date="1501696534000" expanded="true" signature="232:667" ph="WPLoader: &lt;11 keys&gt;" />
+            <marker date="1501696534000" expanded="true" signature="268:286" ph="%WP_ROOT_FOLDER%" />
+            <marker date="1501696534000" expanded="true" signature="307:323" ph="%TEST_DB_NAME%" />
+            <marker date="1501696534000" expanded="true" signature="344:355" ph="%DB_HOST%" />
+            <marker date="1501696534000" expanded="true" signature="376:387" ph="%DB_USER%" />
+            <marker date="1501696534000" expanded="true" signature="412:427" ph="%DB_PASSWORD%" />
+            <marker date="1501696534000" expanded="true" signature="453:458" ph="wp_" />
+            <marker date="1501696534000" expanded="true" signature="479:492" ph="%WP_DOMAIN%" />
+            <marker date="1501696534000" expanded="true" signature="517:536" ph="admin@%WP_DOMAIN%" />
+            <marker date="1501696534000" expanded="true" signature="556:565" ph="WP Test" />
+            <marker date="1501696534000" expanded="true" signature="586:616" ph="plugins: [1 item]" />
+            <marker date="1501696534000" expanded="true" signature="596:615" ph="adr-wp/adr-wp.php" />
+            <marker date="1501696534000" expanded="true" signature="629:667" ph="activatePlugins: [1 item]" />
+            <marker date="1501696534000" expanded="true" signature="647:666" ph="adr-wp/adr-wp.php" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <marker date="1501694401000" expanded="true" signature="9:12" ph="2" />
+            <marker date="1501694401000" expanded="true" signature="14:1076" ph="services: &lt;4 keys&gt;" />
+            <marker date="1501694401000" expanded="true" signature="26:190" ph="nginx-proxy: &lt;4 keys&gt;" />
+            <marker date="1501694401000" expanded="true" signature="50:69" ph="jwilder/nginx-proxy" />
+            <marker date="1501694401000" expanded="true" signature="90:101" ph="nginx-proxy" />
+            <marker date="1501694401000" expanded="true" signature="106:128" ph="ports: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="121:128" ph="80:80" />
+            <marker date="1501694401000" expanded="true" signature="133:190" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="150:190" ph="/var/run/…er.sock:ro" />
+            <marker date="1501694401000" expanded="true" signature="193:497" ph="mysql: &lt;5 keys&gt;" />
+            <marker date="1501694401000" expanded="true" signature="211:216" ph="mysql" />
+            <marker date="1501694401000" expanded="true" signature="221:395" ph="environment: &lt;5 items&gt;" />
+            <marker date="1501694401000" expanded="true" signature="242:267" ph="VIRTUAL_H….localhost" />
+            <marker date="1501694401000" expanded="true" signature="276:300" ph="MYSQL_ROO…SWORD=root" />
+            <marker date="1501694401000" expanded="true" signature="309:333" ph="MYSQL_DAT…=${DOMAIN}" />
+            <marker date="1501694401000" expanded="true" signature="342:362" ph="MYSQL_USER=${DOMAIN}" />
+            <marker date="1501694401000" expanded="true" signature="371:395" ph="MYSQL_PAS…=${DOMAIN}" />
+            <marker date="1501694401000" expanded="true" signature="400:449" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="417:449" ph="./docker/…/lib/mysql" />
+            <marker date="1501694401000" expanded="true" signature="454:480" ph="ports: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="469:480" ph="3306:3306" />
+            <marker date="1501694401000" expanded="true" signature="491:497" ph="1000" />
+            <marker date="1501694401000" expanded="true" signature="500:791" ph="php: &lt;4 keys&gt;" />
+            <marker date="1501694401000" expanded="true" signature="516:545" ph="lucatume/…bug:latest" />
+            <marker date="1501694401000" expanded="true" signature="550:611" ph="environment: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="571:611" ph="XDEBUG_RE…MOTE_HOST}" />
+            <marker date="1501694401000" expanded="true" signature="616:693" ph="links: &lt;2 items&gt;" />
+            <marker date="1501694401000" expanded="true" signature="631:651" ph="mysql:db.localhost" />
+            <marker date="1501694401000" expanded="true" signature="660:693" ph="nginx-pro….localhost" />
+            <marker date="1501694401000" expanded="true" signature="698:791" ph="volumes: &lt;2 items&gt;" />
+            <marker date="1501694401000" expanded="true" signature="715:741" ph="./docker/…r/www/html" />
+            <marker date="1501694401000" expanded="true" signature="750:791" ph=".:/var/ww…ins/adr-wp" />
+            <marker date="1501694401000" expanded="true" signature="794:1076" ph="nginx: &lt;4 keys&gt;" />
+            <marker date="1501694401000" expanded="true" signature="812:840" ph="lucatume/…-wp:latest" />
+            <marker date="1501694401000" expanded="true" signature="845:955" ph="environment: &lt;2 items&gt;" />
+            <marker date="1501694401000" expanded="true" signature="866:920" ph="VIRTUAL_H….localhost" />
+            <marker date="1501694401000" expanded="true" signature="929:955" ph="DOMAIN=${….localhost" />
+            <marker date="1501694401000" expanded="true" signature="960:1053" ph="volumes: &lt;2 items&gt;" />
+            <marker date="1501694401000" expanded="true" signature="977:1003" ph="./docker/…r/www/html" />
+            <marker date="1501694401000" expanded="true" signature="1012:1053" ph=".:/var/ww…ins/adr-wp" />
+            <marker date="1501694401000" expanded="true" signature="1058:1076" ph="links: &lt;1 item&gt;" />
+            <marker date="1501694401000" expanded="true" signature="1073:1076" ph="php" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/lucatume/wp-browser/src/Codeception/Module/WPLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="412" column="33" lean-forward="false" selection-start-line="412" selection-start-column="33" selection-end-line="412" selection-end-column="33" />
+          <folding>
+            <marker date="1501699217000" expanded="false" signature="42:313" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="318:767" ph=" Class WPLoader ..." />
+            <marker date="1501699217000" expanded="true" signature="801:17369" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="929:1579" ph=" The fields the user will have to set to legit values for the module to ..." />
+            <marker date="1501699217000" expanded="true" signature="1612:1684" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1692:4088" ph=" The fields the user will be able to override while running tests. ..." />
+            <marker date="1501699217000" expanded="true" signature="4115:4702" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4710:4784" ph=" The path to the modified tests bootstrap file. ..." />
+            <marker date="1501699217000" expanded="true" signature="4821:4889" ph=" @var string The absolute path to WP root folder (`ABSPATH`). ..." />
+            <marker date="1501699217000" expanded="true" signature="4923:4982" ph=" @var string The absolute path to the plugins folder ..." />
+            <marker date="1501699217000" expanded="true" signature="5017:5073" ph=" @var \tad\WPBrowser\Module\WPLoader\FactoryStore ..." />
+            <marker date="1501699217000" expanded="true" signature="5107:5122" ph=" @var WP ..." />
+            <marker date="1501699217000" expanded="true" signature="5237:5325" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="5332:5695" ph=" The function that will initialize the module. ..." />
+            <marker date="1501699217000" expanded="true" signature="5730:5755" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="5792:6200" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="5834:5980" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6247:6939" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6406:6936" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6464:6482" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6660:6932" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6946:7279" ph=" @param string $wpRootFolder ..." />
+            <marker date="1501699217000" expanded="true" signature="7331:7557" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7410:7554" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7564:7586" ph=" @return string ..." />
+            <marker date="1501699217000" expanded="true" signature="7628:7958" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7664:7924" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7965:8264" ph=" Loads WordPress calling the bootstrap file ..." />
+            <marker date="1501699217000" expanded="true" signature="8304:8672" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="8367:8411" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="8421:8467" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="8583:8611" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="8621:8669" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="8679:8958" ph=" Defines the globals needed by WordPress to run to user set values. ..." />
+            <marker date="1501699217000" expanded="true" signature="8998:10375" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="9126:10130" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="10176:10235" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="10201:10231" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="10314:10372" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="10382:10543" ph=" @param string $folder = null The absolute path to the WordPress root ..." />
+            <marker date="1501699217000" expanded="true" signature="10598:11060" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="10755:11057" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="10779:11053" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="10877:11018" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="11067:11093" ph=" @return bool|mixed ..." />
+            <marker date="1501699217000" expanded="true" signature="11148:11242" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="11249:11305" ph=" @return string ..." />
+            <marker date="1501699217000" expanded="true" signature="11348:11792" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="11385:11757" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="11578:11696" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="11830:12030" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="12037:12137" ph=" Sets up the `current_site` global handling multisite and single site ..." />
+            <marker date="1501699217000" expanded="true" signature="12180:13137" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="12350:12625" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="12397:12477" ph="SELECT domai... " />
+            <marker date="1501699217000" expanded="true" signature="12635:13041" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="12667:12738" ph="SELECT optio... $" />
+            <marker date="1501699217000" expanded="true" signature="12769:12939" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="12887:12934" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="12950:13007" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="13195:13727" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="13301:13575" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="13455:13505" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="13664:13724" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="13770:14131" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="13811:13825" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="13891:14037" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="13956:14032" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14047:14128" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14138:14239" ph=" Sets the active template and stylesheet according to the `theme` ..." />
+            <marker date="1501699217000" expanded="true" signature="14278:14788" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14317:14331" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14376:14461" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14471:14568" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14795:14856" ph=" Calls a list of user-defined actions needed in tests. ..." />
+            <marker date="1501699217000" expanded="true" signature="14896:15132" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14946:14960" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15021:15129" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15053:15081" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15092:15125" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15169:15617" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15209:15614" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15451:15489" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15656:16034" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15781:15795" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15855:15985" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15902:15980" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="16041:16088" ph=" Loads the plugins required by the test. ..." />
+            <marker date="1501699217000" expanded="true" signature="16123:16763" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="16193:16207" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="16351:16760" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="16416:16733" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="16770:16984" ph=" Accessor method to get the object storing the factories for things. ..." />
+            <marker date="1501699217000" expanded="true" signature="17015:17047" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="17090:17367" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="17112:17244" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="17295:17364" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="17327:17360" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/lucatume/wp-browser/src/includes/isolated-install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <marker date="1501699217000" expanded="false" signature="9:70" ph=" Installs WordPress for the purpose of the unit-tests ..." />
+            <marker date="1501699217000" expanded="true" signature="336:537" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="390:534" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="420:532" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="481:513" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="591:643" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="651:674" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="827:853" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1406:1561" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1626:1683" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1691:1740" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1784:1911" ph=" Before dropping the tables include the active plugins as those might define ..." />
+            <marker date="1501699217000" expanded="true" signature="2015:2191" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="2101:2168" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="2391:2449" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="2408:2429" ph="DROP TABLE I... " />
+            <marker date="1501699217000" expanded="true" signature="2523:2695" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="2540:2561" ph="DROP TABLE I... " />
+            <marker date="1501699217000" expanded="true" signature="2656:2693" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3022:3064" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3169:3902" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3805:3841" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3996:4477" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4068:4290" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4333:4475" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/lucatume/wp-browser/src/includes/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="72" column="19" lean-forward="false" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+          <folding>
+            <marker date="1501699217000" expanded="true" signature="75:164" ph=" Installs WordPress for running the tests and loads WordPress and the test libraries ..." />
+            <marker date="1501699217000" expanded="true" signature="213:272" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="277:432" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="691:739" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="966:1028" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1090:1170" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1129:1168" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1569:1590" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1598:1620" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1782:1825" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="2105:2203" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="2211:3908" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="2229:2938" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="2339:2935" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="2960:3056" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3097:3193" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3126:3190" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3263:3508" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3676:3824" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3685:3822" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3692:3820" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3930:4111" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3965:3998" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4042:4084" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4492:4779" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4531:4643" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4711:4777" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="5585:5641" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="5647:6147" ph=" A child class of the PHP test runner. ..." />
+            <marker date="1501699217000" expanded="true" signature="6208:8048" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6241:6275" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6311:8046" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6404:6767" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6413:6594" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6483:6589" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6638:6763" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6796:6883" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6922:7553" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6949:7549" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6978:7110" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7040:7092" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7131:7545" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7211:7354" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7293:7347" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7418:7527" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7466:7520" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7667:7775" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7832:8043" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/SuiteManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <marker date="1499715909000" expanded="false" signature="34:323" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="343:7656" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="411:458" ph=" @var \PHPUnit_Framework_TestSuite ..." />
+            <marker date="1499715909000" expanded="true" signature="498:572" ph=" @var null|\Symfony\Component\EventDispatcher\EventDispatcher ..." />
+            <marker date="1499715909000" expanded="true" signature="617:648" ph=" @var GroupManager ..." />
+            <marker date="1499715909000" expanded="true" signature="688:713" ph=" @var Loader ..." />
+            <marker date="1499715909000" expanded="true" signature="751:785" ph=" @var ModuleContainer ..." />
+            <marker date="1499715909000" expanded="true" signature="828:849" ph=" @var Di ..." />
+            <marker date="1499715909000" expanded="true" signature="1124:1829" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="1529:1595" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="1704:1772" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="1863:2663" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="2047:2092" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="2214:2433" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="2708:3063" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="2889:2927" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="2964:3011" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="3105:3844" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="3223:3350" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="3268:3320" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="3397:3597" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="3512:3587" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="3774:3837" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="3887:4695" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="4077:4147" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="4236:4325" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="4473:4606" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="4794:5167" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="5176:5216" ph=" @return \Codeception\Suite ..." />
+            <marker date="1499715909000" expanded="true" signature="5249:5290" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="5299:5336" ph=" @return ModuleContainer ..." />
+            <marker date="1499715909000" expanded="true" signature="5379:5430" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="5465:5727" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="5512:5546" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="5795:6491" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="5877:5906" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="5953:6088" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="6271:6484" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="6330:6474" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="6567:7000" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="6649:6683" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="6779:6971" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="6919:6961" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="7009:7076" ph=" @param $t ..." />
+            <marker date="1499715909000" expanded="true" signature="7119:7654" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="7169:7198" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="7239:7383" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="7240:7382" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="7424:7565" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="7425:7564" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="7611:7647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Codecept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding>
+            <marker date="1499715909000" expanded="false" signature="34:178" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="194:7421" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="234:280" ph=" @var \Codeception\PHPUnit\Runner ..." />
+            <marker date="1499715909000" expanded="true" signature="313:361" ph=" @var \PHPUnit_Framework_TestResult ..." />
+            <marker date="1499715909000" expanded="true" signature="395:439" ph=" @var \Codeception\CodeCoverage ..." />
+            <marker date="1499715909000" expanded="true" signature="475:544" ph=" @var \Symfony\Component\EventDispatcher\EventDispatcher ..." />
+            <marker date="1499715909000" expanded="true" signature="582:616" ph=" @var ExtensionLoader ..." />
+            <marker date="1499715909000" expanded="true" signature="659:683" ph=" @var array ..." />
+            <marker date="1499715909000" expanded="true" signature="712:1571" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="1611:1635" ph=" @var array ..." />
+            <marker date="1499715909000" expanded="true" signature="1717:2322" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="2331:2514" ph=" Merges given options with default values and current configuration ..." />
+            <marker date="1499715909000" expanded="true" signature="2562:2742" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="2793:2913" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="2956:4480" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="3559:3644" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="3686:3781" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="3825:3907" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="3951:4347" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="4549:6062" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="4572:4724" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="5034:5118" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="5188:6055" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="5304:5759" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="5354:5745" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="5794:5833" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="5904:5987" ph="..." />
+            <marker date="1499715909000" expanded="true" signature="6125:6399" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="6443:6525" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="6560:6847" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="6856:6907" ph=" @return \PHPUnit_Framework_TestResult ..." />
+            <marker date="1499715909000" expanded="true" signature="6941:6983" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="7017:7060" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="7069:7106" ph=" @return EventDispatcher ..." />
+            <marker date="1499715909000" expanded="true" signature="7144:7190" ph="{...}" />
+            <marker date="1499715909000" expanded="true" signature="7232:7419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/lucatume/wp-browser/src/Codeception/Module/WPDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding>
+            <marker date="1501699217000" expanded="false" signature="42:639" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="644:733" ph=" An extension of Codeception Db class to add WordPress database specific ..." />
+            <marker date="1501699217000" expanded="true" signature="767:69659" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="773:821" ph=" @var string The theme stylesheet in use. ..." />
+            <marker date="1501699217000" expanded="true" signature="858:876" ph=" @var array ..." />
+            <marker date="1501699217000" expanded="true" signature="908:926" ph=" @var array ..." />
+            <marker date="1501699217000" expanded="true" signature="962:981" ph=" @var string ..." />
+            <marker date="1501699217000" expanded="true" signature="1030:1048" ph=" @var array ..." />
+            <marker date="1501699217000" expanded="true" signature="1122:1140" ph=" @var array ..." />
+            <marker date="1501699217000" expanded="true" signature="1258:1355" ph=" @var array A list of tables that WordPress will nor replicate in multisite installations. ..." />
+            <marker date="1501699217000" expanded="true" signature="1386:1502" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1510:1609" ph=" The module required configuration parameters. ..." />
+            <marker date="1501699217000" expanded="true" signature="1655:1727" ph=" The module optional configuration parameters. ..." />
+            <marker date="1501699217000" expanded="true" signature="1752:1906" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="1914:1966" ph=" The table prefix to use. ..." />
+            <marker date="1501699217000" expanded="true" signature="2007:2058" ph=" @var int The id of the blog currently used. ..." />
+            <marker date="1501699217000" expanded="true" signature="2090:2113" ph=" @var Handlebars ..." />
+            <marker date="1501699217000" expanded="true" signature="2145:2164" ph=" @var Tables ..." />
+            <marker date="1501699217000" expanded="true" signature="2192:2209" ph=" @var bool ..." />
+            <marker date="1501699217000" expanded="true" signature="2266:2284" ph=" @var array ..." />
+            <marker date="1501699217000" expanded="true" signature="2343:2389" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="2396:2587" ph=" Initializes the module. ..." />
+            <marker date="1501699217000" expanded="true" signature="2673:2998" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3041:3754" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3133:3751" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3210:3375" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3576:3709" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="3761:4000" ph=" Replaces the WordPress domains in a SQL dump string. ..." />
+            <marker date="1501699217000" expanded="true" signature="4072:5097" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4296:4470" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4313:4449" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4532:4690" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4549:4669" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4771:4922" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="4788:4901" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="5104:5225" ph=" Replaces the site domain in the multisite tables of a SQL dump. ..." />
+            <marker date="1501699217000" expanded="true" signature="5306:6632" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="5320:5434" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="5558:6613" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="5773:5975" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="5791:5956" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="5812:5949" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6038:6199" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6056:6180" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6241:6427" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6259:6408" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6280:6401" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6446:6551" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6676:6928" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6684:6794" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6822:6925" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="6935:7154" ph=" Import the SQL dump file if populate is enabled. ..." />
+            <marker date="1501699217000" expanded="true" signature="7211:7574" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7239:7458" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7300:7407" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7495:7571" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7581:7809" ph=" Checks that an option is not in the database for the current blog. ..." />
+            <marker date="1501699217000" expanded="true" signature="7871:8111" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="7973:8057" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="8118:8446" ph=" Returns a prefixed table name for the current blog. ..." />
+            <marker date="1501699217000" expanded="true" signature="8509:8759" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="8601:8665" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="8766:8810" ph=" @param $value ..." />
+            <marker date="1501699217000" expanded="true" signature="8857:8966" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="8973:9208" ph=" Checks for a post meta value in the database for the current blog. ..." />
+            <marker date="1501699217000" expanded="true" signature="9268:9499" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="9369:9449" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="9506:9649" ph=" Checks for a link in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="9705:9811" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="9818:9969" ph=" Checks that a link is not in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="10029:10139" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="10146:10358" ph=" Checks that a post meta value is not there. ..." />
+            <marker date="1501699217000" expanded="true" signature="10422:10657" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="10523:10603" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="10664:10986" ph=" Checks that a post to term relation exists in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="11070:11279" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="11168:11275" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="11181:11274" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="11286:11425" ph=" Checks that a user is in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="11481:12022" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="11608:11972" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="11853:11967" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="12029:12140" ph=" Checks that a user is not in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="12200:12802" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="12351:12579" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="12660:12798" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="12809:12976" ph=" Inserts a page in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="13039:13126" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="13133:13333" ph=" Inserts a post in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="13391:15016" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="13800:13931" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="13967:14100" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14179:14304" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14228:14300" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14325:14994" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14374:14990" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14414:14985" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14511:14587" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14616:14722" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14786:14854" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="14787:14853" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15023:15121" ph=" Gets the posts table name. ..." />
+            <marker date="1501699217000" expanded="true" signature="15163:15216" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15223:15359" ph=" Returns the id value of the last table entry. ..." />
+            <marker date="1501699217000" expanded="true" signature="15440:15675" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="15499:15569" ph="SELECT ${{$i... " />
+            <marker date="1501699217000" expanded="true" signature="15682:15975" ph=" Adds one or more meta key and value couples in the database for a post. ..." />
+            <marker date="1501699217000" expanded="true" signature="16053:16472" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="16080:16150" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="16182:16256" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="16337:16468" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="16350:16467" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="16479:16608" ph=" Returns the prefixed post meta table name. ..." />
+            <marker date="1501699217000" expanded="true" signature="16653:16709" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="16716:16924" ph=" Gets a term from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="16985:17072" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="17079:17162" ph=" Gets the prefixed terms table name, e.g. `wp_terms`. ..." />
+            <marker date="1501699217000" expanded="true" signature="17204:17258" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="17265:17591" ph=" Inserts a term in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="17672:18694" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="17833:17897" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="18544:18650" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="18583:18646" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="18701:18804" ph=" Gets the prefixed term and taxonomy table name, e.g. `wp_term_taxonomy`. ..." />
+            <marker date="1501699217000" expanded="true" signature="18853:18914" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="18921:19169" ph=" Inserts a term meta row in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="19247:19660" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="19274:19341" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="19373:19444" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="19525:19656" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="19538:19655" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="19667:19767" ph=" Gets the terms meta table prefixed name. ..." />
+            <marker date="1501699217000" expanded="true" signature="19812:19868" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="19875:20133" ph=" Gets a `term_taxonomy_id` from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="20202:20305" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="20312:20736" ph=" Creates a term relationship in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="20836:21030" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="20861:21026" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="20903:21025" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="21037:21146" ph=" Gets the prefixed term relationships table name, e.g. `wp_term_relationships`. ..." />
+            <marker date="1501699217000" expanded="true" signature="21200:21266" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="21334:21529" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="21356:21451" ph="UPDATE ${{$t... " />
+            <marker date="1501699217000" expanded="true" signature="21536:21639" ph=" Checks for a page in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="21695:21771" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="21778:21881" ph=" Checks for a post in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="21937:22043" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="22050:22161" ph=" Checks that a page is not in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="22221:22301" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="22308:22419" ph=" Checks that a post is not in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="22479:22589" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="22596:22737" ph=" Checks for a comment in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="22796:22905" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="22912:23061" ph=" Checks that a comment is not in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="23124:23237" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="23244:23403" ph=" Checks that a comment meta value is in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="23466:23578" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="23585:23748" ph=" Checks that a comment meta value is not in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="23815:23931" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="23938:24052" ph=" Checks for a user meta value in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="24112:24221" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="24228:24349" ph=" Check that a user meta value is not in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="24413:24526" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="24533:24635" ph=" Removes a link from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="24696:24807" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="24814:25015" ph=" Removes an entry from the posts table. ..." />
+            <marker date="1501699217000" expanded="true" signature="25095:25383" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="25173:25326" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="25259:25322" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="25390:25500" ph=" Removes an entry from the postmeta table. ..." />
+            <marker date="1501699217000" expanded="true" signature="25565:25679" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="25686:25806" ph=" Removes an entry from the term_relationships table. ..." />
+            <marker date="1501699217000" expanded="true" signature="25879:26003" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="26010:26125" ph=" Removes an entry from the term_taxonomy table. ..." />
+            <marker date="1501699217000" expanded="true" signature="26194:26313" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="26320:26430" ph=" Removes an entry from the usermeta table. ..." />
+            <marker date="1501699217000" expanded="true" signature="26495:26609" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="26616:26797" ph=" Removes a user from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="26876:27204" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="27099:27201" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="27211:27342" ph=" Gets the a user ID from the database using the user login. ..." />
+            <marker date="1501699217000" expanded="true" signature="27398:27498" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="27505:27669" ph=" Gets a user meta from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="27735:28024" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="27923:27940" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="27962:28020" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="27979:28012" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="28031:28246" ph=" Returns all entries matching a criteria from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="28315:28495" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="28502:28738" ph=" Inserts a transient in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="28803:28879" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="28886:29166" ph=" Inserts an option in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="29256:29590" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="29470:29586" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="29479:29585" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="29597:29721" ph=" Removes a transient from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="29782:29854" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="29861:29978" ph=" Removes an entry from the options table. ..." />
+            <marker date="1501699217000" expanded="true" signature="30045:30275" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="30177:30219" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="30282:30514" ph=" Inserts a site option in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="30574:30766" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="30773:30833" ph=" Sets the current blog to the main one (`blog_id` 1). ..." />
+            <marker date="1501699217000" expanded="true" signature="30868:30891" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="30898:30954" ph=" Sets the blog to be used. ..." />
+            <marker date="1501699217000" expanded="true" signature="30992:31192" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="31063:31158" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="31199:31295" ph=" Removes a site option from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="31366:31527" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="31534:31757" ph=" Inserts a site transient in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="31820:32015" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="32022:32100" ph=" Removes a site transient from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="32159:32315" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="32322:32423" ph=" Gets a site option from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="32477:32655" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="32662:32767" ph=" Gets an option from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="32825:33067" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="33114:33216" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="33223:33327" ph=" Gets a site transient from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="33384:33565" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="33572:33685" ph=" Checks that a site option is in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="33758:33993" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="33873:33915" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="34000:34223" ph=" Checks if an option is in the database for the current blog. ..." />
+            <marker date="1501699217000" expanded="true" signature="34281:34517" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="34383:34467" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="34524:34637" ph=" Checks that a site option is in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="34703:34954" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="34834:34876" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="34961:35159" ph=" Returns the current site url as specified in the module configuration. ..." />
+            <marker date="1501699217000" expanded="true" signature="35206:35391" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="35262:35372" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="35398:36486" ph=" Inserts many posts in the database returning their IDs. ..." />
+            <marker date="1501699217000" expanded="true" signature="36562:36922" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="36587:36664" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="36771:36903" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="36985:37231" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="37029:37061" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="37071:37206" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="37289:37599" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="37341:37580" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="37368:37466" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="37477:37576" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="37606:37663" ph=" @param $value ..." />
+            <marker date="1501699217000" expanded="true" signature="37722:38030" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="37750:37771" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="37855:37962" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="37903:37961" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="38037:38312" ph=" Checks for a term in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="38368:38819" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="38583:38689" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="38729:38816" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="38826:39029" ph=" Removes a term from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="39109:40100" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="39372:39784" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="39427:39521" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="39571:39672" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="39697:39780" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="39725:39775" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="39986:40096" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="40107:40213" ph=" Removes a term meta from the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="40278:40352" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="40359:40647" ph=" Makes sure a term is not in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="40707:41166" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="40922:41032" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="41072:41163" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="41173:41503" ph=" Inserts many comments in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="41600:41981" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="41625:41702" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="41809:41962" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="41988:42265" ph=" Inserts a comment in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="42344:42920" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="42379:42451" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="42527:42581" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="42784:42895" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="42823:42891" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="42927:43178" ph=" Inserts a comment meta field in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="43262:43660" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="43292:43362" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="43394:43465" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="43499:43656" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="43535:43655" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="43667:43774" ph=" Returns the prefixed comment meta table name. ..." />
+            <marker date="1501699217000" expanded="true" signature="43822:43881" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="43888:44095" ph=" Removes an entry from the comments table. ..." />
+            <marker date="1501699217000" expanded="true" signature="44178:44477" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="44241:44425" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="44335:44421" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="44363:44416" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="44484:44589" ph=" Gets the comments table name. ..." />
+            <marker date="1501699217000" expanded="true" signature="44634:44690" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="44697:44810" ph=" Removes an entry from the commentmeta table. ..." />
+            <marker date="1501699217000" expanded="true" signature="44878:44995" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="45002:45172" ph=" Inserts many links in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="45248:45608" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="45273:45350" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="45457:45589" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="45615:45756" ph=" Inserts a link in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="45819:46042" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="46049:46143" ph=" Returns the prefixed links table name. ..." />
+            <marker date="1501699217000" expanded="true" signature="46185:46238" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="46349:46887" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="46374:46451" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="46558:46868" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="46662:46703" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="46894:47318" ph=" Inserts a user and appropriate meta in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="47416:48051" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="47492:47556" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="47924:48029" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="47963:48025" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="48058:48135" ph=" Returns the users table name, e.g. `wp_users`. ..." />
+            <marker date="1501699217000" expanded="true" signature="48179:48270" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="48277:48626" ph=" Sets a user capabilities. ..." />
+            <marker date="1501699217000" expanded="true" signature="48694:49289" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="48720:48909" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="48964:49270" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="49296:49632" ph=" Sets a user meta. ..." />
+            <marker date="1501699217000" expanded="true" signature="49709:50074" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="49842:50055" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="49856:49976" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="50081:50175" ph=" Returns the prefixed `usermeta` table name, e.g. `wp_usermeta`. ..." />
+            <marker date="1501699217000" expanded="true" signature="50220:50312" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="50319:50628" ph=" Sets the user level in the database for a user. ..." />
+            <marker date="1501699217000" expanded="true" signature="50690:51284" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="50716:50914" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="50969:51265" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="51291:51612" ph=" Inserts many terms in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="51706:52295" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="51731:51808" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="51915:52276" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="51953:51988" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="52302:52495" ph=" Checks for a term taxonomy in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="52559:52632" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="52639:52840" ph=" Checks that a term taxonomy is not in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="52908:52985" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="52992:53099" ph=" Checks for a term meta in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="53159:53228" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="53235:53350" ph=" Checks that a term meta is not in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="53414:53487" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="53494:53566" ph=" Checks for a table in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="53614:53765" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="53772:53813" ph=" @param $table ..." />
+            <marker date="1501699217000" expanded="true" signature="53865:54093" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="54100:54176" ph=" Gets the prefixed `blog_versions` table name. ..." />
+            <marker date="1501699217000" expanded="true" signature="54225:54286" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="54293:54364" ph=" Gets the prefixed `sitemeta` table name. ..." />
+            <marker date="1501699217000" expanded="true" signature="54409:54465" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="54472:54542" ph=" Gets the prefixed `signups` table name. ..." />
+            <marker date="1501699217000" expanded="true" signature="54586:54641" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="54648:54727" ph=" Gets the prefixed `registration_log` table name. ..." />
+            <marker date="1501699217000" expanded="true" signature="54779:54843" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="54850:54917" ph=" Gets the prefixed `site` table name. ..." />
+            <marker date="1501699217000" expanded="true" signature="54958:55010" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="55017:55147" ph=" Checks for a blog in the database, looks up the `blogs` table. ..." />
+            <marker date="1501699217000" expanded="true" signature="55203:55269" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="55276:55344" ph=" Gets the prefixed `blogs` table name. ..." />
+            <marker date="1501699217000" expanded="true" signature="55386:55439" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="55446:55606" ph=" Inserts many blogs in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="55682:55916" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="55788:55893" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="55923:56186" ph=" Inserts a blog in the `blogs` table. ..." />
+            <marker date="1501699217000" expanded="true" signature="56264:56826" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="56378:56535" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="56416:56503" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="56545:56654" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="56833:56930" ph=" Returns the site domain inferred from the `url` set in the config. ..." />
+            <marker date="1501699217000" expanded="true" signature="56967:57048" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="57055:57163" ph=" Removes an entry from the `blogs` table. ..." />
+            <marker date="1501699217000" expanded="true" signature="57224:57295" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="57302:57424" ph=" Checks that a row is not present in the `blogs` table. ..." />
+            <marker date="1501699217000" expanded="true" signature="57484:57554" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="57561:57690" ph=" Returns the table prefix, namespaced for secondary blogs if selected. ..." />
+            <marker date="1501699217000" expanded="true" signature="57729:57760" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="57767:58120" ph=" Sets the current theme options. ..." />
+            <marker date="1501699217000" expanded="true" signature="58200:59026" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="58235:58309" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="58365:58456" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="58514:58610" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="59033:59399" ph=" Creates and adds a menu to a theme location in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="59480:60352" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="59507:59581" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="59613:59691" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="59727:59824" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="60120:60219" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="60359:60784" ph=" Adds a menu element to a menu for the current theme. ..." />
+            <marker date="1501699217000" expanded="true" signature="60884:62025" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="60915:60989" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="61025:61122" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="61194:61295" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="61428:61527" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="61429:61526" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="61547:61637" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="61700:61831" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="61750:61830" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="62032:62147" ph=" Checks for a term relationship in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="62215:62307" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="62314:62384" ph=" @param Db|MsSql|ExtendedMySql|Oracle|PostgreSql|Sqlite $driver ..." />
+            <marker date="1501699217000" expanded="true" signature="62425:62454" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="62461:62653" ph=" Conditionally checks that a term exists in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="62718:63054" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="62811:62825" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="62965:63051" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="63061:63083" ph=" @return string ..." />
+            <marker date="1501699217000" expanded="true" signature="63126:63260" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="63306:63591" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="63327:63413" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="63598:63766" ph=" Replaces the WordPress domains in an array of SQL dump string. ..." />
+            <marker date="1501699217000" expanded="true" signature="63827:63936" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="63848:63865" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="63943:64130" ph=" Replaces the site domain in the multisite tables of an array of SQL dump strings. ..." />
+            <marker date="1501699217000" expanded="true" signature="64200:64318" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="64221:64238" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="64325:65238" ph=" Creates the database entries representing an attachment and moves the attachment file to the right location. ..." />
+            <marker date="1501699217000" expanded="true" signature="65349:68706" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="65388:65434" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="65464:65591" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="66051:66296" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="66052:66283" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="66536:66554" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="66651:66758" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="66670:66753" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="66832:67738" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="66983:67024" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="67059:67171" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="67198:67321" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="67350:67476" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="67487:67568" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="67756:68611" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="67891:68184" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="67929:68183" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="67971:68166" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="67984:68160" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="68211:68606" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="68713:68823" ph=" Checks for an attachment in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="68885:68970" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="68977:69095" ph=" Checks that an attachment is not in the database. ..." />
+            <marker date="1501699217000" expanded="true" signature="69161:69250" ph="..." />
+            <marker date="1501699217000" expanded="true" signature="69257:69469" ph=" Removes an attachment from the posts table. ..." />
+            <marker date="1501699217000" expanded="true" signature="69555:69657" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance.suite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1501691436000" expanded="true" signature="272:288" ph="AcceptanceTester" />
+            <marker date="1501691436000" expanded="true" signature="289:873" ph="modules: &lt;2 keys&gt;" />
+            <marker date="1501691436000" expanded="true" signature="300:360" ph="enabled: &lt;3 items&gt;" />
+            <marker date="1501691436000" expanded="true" signature="315:319" ph="WPDb" />
+            <marker date="1501691436000" expanded="true" signature="326:335" ph="WPBrowser" />
+            <marker date="1501691436000" expanded="true" signature="342:360" ph="\Helper\Acceptance" />
+            <marker date="1501691436000" expanded="true" signature="363:873" ph="config: &lt;2 keys&gt;" />
+            <marker date="1501691436000" expanded="true" signature="375:749" ph="WPDb: &lt;9 keys&gt;" />
+            <marker date="1501691436000" expanded="true" signature="392:431" ph="mysql:hos…=%DB_NAME%" />
+            <marker date="1501691436000" expanded="true" signature="444:453" ph="%DB_USER%" />
+            <marker date="1501691436000" expanded="true" signature="470:483" ph="%DB_PASSWORD%" />
+            <marker date="1501691436000" expanded="true" signature="496:518" ph="tests/_data/dump.sql" />
+            <marker date="1501691436000" expanded="true" signature="535:539" ph="true" />
+            <marker date="1501691436000" expanded="true" signature="589:593" ph="true" />
+            <marker date="1501691436000" expanded="true" signature="636:646" ph="%WP_URL%" />
+            <marker date="1501691436000" expanded="true" signature="669:673" ph="true" />
+            <marker date="1501691436000" expanded="true" signature="744:749" ph="wp_" />
+            <marker date="1501691436000" expanded="true" signature="754:873" ph="WPBrowser: &lt;4 keys&gt;" />
+            <marker date="1501691436000" expanded="true" signature="776:786" ph="%WP_URL%" />
+            <marker date="1501691436000" expanded="true" signature="808:815" ph="admin" />
+            <marker date="1501691436000" expanded="true" signature="837:844" ph="admin" />
+            <marker date="1501691436000" expanded="true" signature="862:873" ph="/wp-admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/functional.suite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

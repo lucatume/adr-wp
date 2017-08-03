@@ -1,0 +1,6 @@
+path: docker/www
+url: http://adr.localhost
+user: admin
+debug: false
+color: true
+
