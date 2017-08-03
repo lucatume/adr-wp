@@ -27,12 +27,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="functional.suite.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/functional.suite.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -60,6 +63,7 @@
         <option value="$PROJECT_DIR$/vendor/lucatume/wp-browser/src/includes/isolated-install.php" />
         <option value="$PROJECT_DIR$/vendor/lucatume/wp-browser/src/includes/bootstrap.php" />
         <option value="$PROJECT_DIR$/tests/functional.suite.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -157,12 +161,12 @@
       <option name="presentableId" value="Default" />
       <updated>1501669729563</updated>
       <workItem from="1501669730813" duration="1059000" />
-      <workItem from="1501689053830" duration="8540000" />
+      <workItem from="1501689053830" duration="8697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9599000" />
+    <option name="totallyTimeSpent" value="9756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1675" height="1027" extended-state="0" />
@@ -1973,7 +1977,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1501745256000" expanded="true" signature="133:149" ph="FunctionalTester" />
+            <marker date="1501745256000" expanded="true" signature="150:785" ph="modules: &lt;2 keys&gt;" />
+            <marker date="1501745256000" expanded="true" signature="161:235" ph="enabled: &lt;4 items&gt;" />
+            <marker date="1501745256000" expanded="true" signature="176:180" ph="WPDb" />
+            <marker date="1501745256000" expanded="true" signature="187:196" ph="WordPress" />
+            <marker date="1501745256000" expanded="true" signature="203:210" ph="Asserts" />
+            <marker date="1501745256000" expanded="true" signature="217:235" ph="\Helper\Functional" />
+            <marker date="1501745256000" expanded="true" signature="238:785" ph="config: &lt;2 keys&gt;" />
+            <marker date="1501745256000" expanded="true" signature="250:624" ph="WPDb: &lt;9 keys&gt;" />
+            <marker date="1501745256000" expanded="true" signature="267:306" ph="mysql:hos…=%DB_NAME%" />
+            <marker date="1501745256000" expanded="true" signature="319:328" ph="%DB_USER%" />
+            <marker date="1501745256000" expanded="true" signature="345:358" ph="%DB_PASSWORD%" />
+            <marker date="1501745256000" expanded="true" signature="371:393" ph="tests/_data/dump.sql" />
+            <marker date="1501745256000" expanded="true" signature="410:414" ph="true" />
+            <marker date="1501745256000" expanded="true" signature="464:468" ph="true" />
+            <marker date="1501745256000" expanded="true" signature="511:521" ph="%WP_URL%" />
+            <marker date="1501745256000" expanded="true" signature="544:548" ph="true" />
+            <marker date="1501745256000" expanded="true" signature="619:624" ph="wp_" />
+            <marker date="1501745256000" expanded="true" signature="629:785" ph="WordPress: &lt;5 keys&gt;" />
+            <marker date="1501745256000" expanded="true" signature="655:659" ph="WPDb" />
+            <marker date="1501745256000" expanded="true" signature="680:698" ph="%WP_ROOT_FOLDER%" />
+            <marker date="1501745256000" expanded="true" signature="720:727" ph="admin" />
+            <marker date="1501745256000" expanded="true" signature="749:756" ph="admin" />
+            <marker date="1501745256000" expanded="true" signature="774:785" ph="/wp-admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
