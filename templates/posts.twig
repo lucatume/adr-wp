@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Posts</title>
+</head>
+<body>
+<main class="posts">
+    {% if posts %}
+        <ul>
+            {% for post in posts %}
+                <li class="post">
+                    <h3>{{ post.post_title }}</h3>
+                    {{ post.post_content }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Nothing found...</p>
+    {% endif %}
+</main>
+</body>
+</html>

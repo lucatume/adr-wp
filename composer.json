@@ -12,7 +12,8 @@
   "require": {
     "xrstf/composer-php52": "^1.0",
     "lucatume/di52": "^2.0",
-    "lucatume/klein52": "^1.0"
+    "lucatume/klein52": "^1.0",
+    "twig/twig": "v1.33.2"
   },
   "scripts": {
     "post-install-cmd": [
@@ -28,5 +29,10 @@
   "require-dev": {
     "lucatume/wp-browser": "^1.21",
     "vlucas/phpdotenv": "^2.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "adr_": "src/"
+    }
   }
 }

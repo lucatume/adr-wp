@@ -18,3 +18,8 @@ if (version_compare(PHP_VERSION, '5.3.0', '>=')) {
 } else {
 	include_once dirname(__FILE__) . '/vendor/autoload_52.php';
 }
+
+$container = new tad_DI52_Container();
+
+$container->register('adr_ServiceProviders_Templates');
+$container->register('adr_ServiceProviders_Routes');
