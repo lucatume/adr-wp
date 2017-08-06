@@ -2,9 +2,19 @@
 
 class adr_Domains_Domain {
 
-	public function get( array $args ) {
-		$query = new WP_Query( $args );
+	/**
+	 * @var \WP_Query
+	 */
+	protected $query;
 
-		return $query->have_posts() ? $query->posts : array();
+	public function __construct( WP_Query $query ) {
+		$this->query = $query;
+	}
+
+	public function get( array $args ) {
+		$this->query->parse_query( $args );
+		$posts = $this->query->get_posts();
+
+		return $this->query->have_posts() ? $posts : array();
 	}
 }

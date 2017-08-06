@@ -13,9 +13,9 @@ services:
     environment:
       - VIRTUAL_HOST=db.localhost
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=${DOMAIN}
-      - MYSQL_USER=${DOMAIN}
-      - MYSQL_PASSWORD=${DOMAIN}
+      - MYSQL_DATABASE=adr
+      - MYSQL_USER=adr
+      - MYSQL_PASSWORD=adr
     volumes:
       - ./docker/database:/var/lib/mysql
     ports:
@@ -27,15 +27,15 @@ services:
       - XDEBUG_REMOTE_HOST=${XDEBUG_REMOTE_HOST}
     links:
       - "mysql:db.localhost"
-      - "nginx-proxy:${DOMAIN}.localhost"
+      - "nginx-proxy:adr.localhost"
     volumes:
       - ./docker/www:/var/www/html
       - .:/var/www/html/wp-content/plugins/adr-wp
   nginx:
     image: lucatume/nginx-for-wp:latest
     environment:
-      - VIRTUAL_HOST=${DOMAIN}.localhost,*.${DOMAIN}.localhost
-      - DOMAIN=${DOMAIN}.localhost
+      - VIRTUAL_HOST=adr.localhost,*.adr.localhost
+      - DOMAIN=adr.localhost
     volumes:
       - ./docker/www:/var/www/html
       - .:/var/www/html/wp-content/plugins/adr-wp
