@@ -1,0 +1,52 @@
+version: "2"
+
+services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    ports:
+      - "8080:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+  mysql:
+    image: mysql
+    environment:
+      - VIRTUAL_HOST=db.localhost
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=adr
+      - MYSQL_USER=adr
+      - MYSQL_PASSWORD=adr
+    volumes:
+      - ./test-front/database:/var/lib/mysql
+    user: "1000"
+  php:
+    image: lucatume/php-52-xdebug
+    environment:
+      - XDEBUG_REMOTE_HOST=${HOST_IP}
+    links:
+      - "mysql:db.localhost"
+      - "nginx-proxy:adr.localhost"
+    volumes:
+      - ./test-front/www:/var/www/html
+      - .:/var/www/html/wp-content/plugins/adr-wp
+  nginx:
+    image: lucatume/nginx-for-wp
+    environment:
+      - VIRTUAL_HOST=adr.localhost,*.adr.localhost
+      - DOMAIN_NAME=adr.localhost
+    links:
+      - php
+    volumes:
+      - ./test-front/www:/var/www/html
+      - .:/var/www/html/wp-content/plugins/adr-wp
+  test-front:
+    image: lucatume/test-front
+    volumes_from:
+      - php
+    links:
+      - nginx
+      - php
+      - "mysql:db.localhost"
+      - "nginx-proxy:adr.localhost"
+    working_dir: /var/www/html/wp-content/plugins/adr-wp
+    environment:
+      - XDEBUG_REMOTE_HOST=${HOST_IP}
