@@ -17,7 +17,7 @@ services:
       - MYSQL_USER=adr
       - MYSQL_PASSWORD=adr
     volumes:
-      - ./docker/database:/var/lib/mysql
+      - ./test-front/database:/var/lib/mysql
     ports:
       - "3306:3306"
     user: "1000"
@@ -29,15 +29,14 @@ services:
       - "mysql:db.localhost"
       - "nginx-proxy:adr.localhost"
     volumes:
-      - ./docker/www:/var/www/html
+      - ./test-front/www:/var/www/html
       - .:/var/www/html/wp-content/plugins/adr-wp
   nginx:
     image: lucatume/nginx-for-wp:latest
     environment:
       - VIRTUAL_HOST=adr.localhost,*.adr.localhost
       - DOMAIN=adr.localhost
-    volumes:
-      - ./docker/www:/var/www/html
-      - .:/var/www/html/wp-content/plugins/adr-wp
+    volumes_from:
+      - php
     links:
       - php

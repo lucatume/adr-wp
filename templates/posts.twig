@@ -7,7 +7,7 @@
     <title>Posts</title>
     {{ wp_head() }}
 </head>
-<body>
+<body {{ body_class('adr') }}>
 <main class="posts">
     {% if posts %}
         <ul>

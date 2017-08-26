@@ -27,7 +27,7 @@
     ]
   },
   "require-dev": {
-    "lucatume/wp-browser": "^1.21",
+    "lucatume/wp-browser": "dev-wploader-go-to",
     "vlucas/phpdotenv": "^2.4"
   },
   "autoload": {

@@ -1,4 +1,4 @@
-path: docker/www
+path: test-front/www
 url: http://adr.localhost
 user: admin
 debug: false
