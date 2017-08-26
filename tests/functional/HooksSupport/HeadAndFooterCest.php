@@ -6,12 +6,12 @@ use FunctionalTester;
 
 class HeadAndFooterCest {
 
-	public function _before(FunctionalTester $I) {
-		$I->useTheme('twentyseventeen');
-		add_filter('adr.debug', '__return_true');
-		add_filter('klein_die_handler', function () {
+	public function _before( FunctionalTester $I ) {
+		$I->useTheme( 'twentyseventeen' );
+		add_filter( 'adr.debug', '__return_true' );
+		add_filter( 'klein_die_handler', function () {
 			return 'echo';
-		});
+		} );
 	}
 
 	/**
@@ -19,17 +19,17 @@ class HeadAndFooterCest {
 	 *
 	 * @test
 	 */
-	public function should_run_the_wp_head_action_while_managing_routes(FunctionalTester $I) {
-		add_action('wp_head', function () use (&$fired) {
+	public function should_run_the_wp_head_action_while_managing_routes( FunctionalTester $I ) {
+		add_action( 'wp_head', function () use ( &$fired ) {
 			$fired = true;
 			echo '<meta foo="bar">';
-		});
+		} );
 
-		$I->amOnPage('/posts');
+		$I->amOnPage( '/posts' );
 
-		$I->canSeeElement('body.adr');
-		$I->assertTrue($fired);
-		$I->seeInSource('<meta foo="bar">');
+		$I->canSeeElement( 'body.adr' );
+		$I->assertTrue( $fired );
+		$I->seeInSource( '<meta foo="bar">' );
 	}
 
 	/**
@@ -37,16 +37,16 @@ class HeadAndFooterCest {
 	 *
 	 * @test
 	 */
-	public function should_run_the_wp_footer_action_while_managing_routes(FunctionalTester $I) {
-		add_action('wp_footer', function () use (&$fired) {
+	public function should_run_the_wp_footer_action_while_managing_routes( FunctionalTester $I ) {
+		add_action( 'wp_footer', function () use ( &$fired ) {
 			$fired = true;
 			echo '<p>Hello from the footer</p>';
-		});
+		} );
 
-		$I->amOnPage('/posts');
+		$I->amOnPage( '/posts' );
 
-		$I->canSeeElement('body.adr');
-		$I->assertTrue($fired);
-		$I->seeInSource('<p>Hello from the footer</p>');
+		$I->canSeeElement( 'body.adr' );
+		$I->assertTrue( $fired );
+		$I->seeInSource( '<p>Hello from the footer</p>' );
 	}
 }
